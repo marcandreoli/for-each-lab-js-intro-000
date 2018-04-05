@@ -16,5 +16,5 @@ function callbackFunction () {
 };
 
 function doToArray(array, callBack) {
-
+  array.forEach(callBack);
 };
